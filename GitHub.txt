@@ -14,5 +14,6 @@ git add readme.txt
 git commit -m "addreadmetxt"
 8、远程仓库
 git push -u origin master
-9、同步到本地代码，和push相反
-git pull origin master
+9、配置用户信息
+git config --global user.name qiaozhiqing
+git config --global user.email 1306808773@qq.com
