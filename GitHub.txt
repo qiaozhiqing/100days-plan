@@ -17,3 +17,7 @@ git push -u origin master
 9、配置用户信息
 git config --global user.name qiaozhiqing
 git config --global user.email 1306808773@qq.com
+
+
+git常用的操作以及冲突解决方法
+https://www.cnblogs.com/SacredOdysseyHD/p/8947246.html
