@@ -1,23 +1,36 @@
-1¡¢³õÊ¼»¯
+1ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½
 git init
-2¡¢´´½¨SSH key
+2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½SSH key
 ssh-keygen -t rsa -C "1306808773@qq.com"
-3¡¢Á¬½ÓÔ¶³Ì
+3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½
 git remote add origin git@github.com:qiaozhiqing/testgit.git
-4¡¢ÑéÖ¤Ô¶³Ì
+4ï¿½ï¿½ï¿½ï¿½Ö¤Ô¶ï¿½ï¿½
 ssh -T git@github.com
-5¡¢¿ËÂ¡
+5ï¿½ï¿½ï¿½ï¿½Â¡
 git clone git@github.com:qiaozhiqing/testgit.git
-6¡¢¹¤×÷Çø
+6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 git add readme.txt
-7¡¢Ìá½»¼Ä´æ¿â
+7ï¿½ï¿½ï¿½á½»ï¿½Ä´ï¿½ï¿½
 git commit -m "addreadmetxt"
-8¡¢Ô¶³Ì²Ö¿â
+8ï¿½ï¿½Ô¶ï¿½Ì²Ö¿ï¿½
 git push -u origin master
-9¡¢ÅäÖÃÓÃ»§ĞÅÏ¢
+9ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½Ï¢
 git config --global user.name qiaozhiqing
 git config --global user.email 1306808773@qq.com
 
+æŸ¥çœ‹åˆ†æ”¯ï¼š
+git branch
+åˆ›å»ºåˆ†æ”¯ï¼š
+git branch <name>
+åˆ‡æ¢åˆ†æ”¯ï¼š
+git checkout <name>
+åˆ›å»º+åˆ‡æ¢åˆ†æ”¯ï¼š
+git checkout -b <name>
+åˆå¹¶æŸåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯ï¼š
+git merge <name>
+åˆ é™¤åˆ†æ”¯ï¼š
+git branch -d <name>
 
-git³£ÓÃµÄ²Ù×÷ÒÔ¼°³åÍ»½â¾ö·½·¨
+gitï¿½ï¿½ï¿½ÃµÄ²ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 https://www.cnblogs.com/SacredOdysseyHD/p/8947246.html
+
